@@ -1,12 +1,12 @@
 import React from "react";
 import PrimarySearchAppBar from "./components/navbar";
-import Cards from "./components/cards";
+import SimpleContainer from "./components/container";
 
 const App = () => {
   return (
     <>
       <PrimarySearchAppBar />
-      <Cards />
+      <SimpleContainer />
     </>
   );
 };
